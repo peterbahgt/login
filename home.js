@@ -9,6 +9,6 @@ if(localStorage.getItem('user')!=null)
 }
 function logout(){
     window.location.href='login.html'
-    // localStorage.removeItem('userName')
+    localStorage.removeItem('userName')
 }
 logOutBtn.addEventListener('click',logout)
