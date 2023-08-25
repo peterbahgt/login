@@ -1,0 +1,22 @@
+.containerUp{
+    background-color: rgb(36, 53, 63);
+    box-shadow: 1px 1px 30px 1px rgb(34, 33, 33);
+}
+body{
+    background-color: rgb(36, 53, 63) !important;
+}
+.titleSignIn{
+    color: rgb(32, 156, 156);
+}
+::placeholder{
+    color: white !important;
+}
+#alertMassage{
+    color: red;
+}
+#welcomeUser{
+color: white;
+font-size: large;
+
+font-weight: bold;
+}
